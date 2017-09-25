@@ -6749,3 +6749,278 @@ puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+Started GET "/auth/logout" for 192.168.1.106 at 2017-09-25 15:28:06 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://192.168.1.106:4000
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:28:06 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 175ms (Views: 174.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:28:08 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+Redirected to http://192.168.1.106:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for 192.168.1.106 at 2017-09-25 15:28:08 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:28:09 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+Redirected to http://192.168.1.106:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for 192.168.1.106 at 2017-09-25 15:28:09 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/auth/auth0/callback?code=Ur_-gsQBq0HeieqS" for 192.168.1.106 at 2017-09-25 15:28:30 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"Ur_-gsQBq0HeieqS"}
+Redirected to http://192.168.1.106:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:28:33 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:30:05 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:30:07 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for 192.168.1.106 at 2017-09-25 15:30:07 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://192.168.1.106:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for 192.168.1.106 at 2017-09-25 15:30:09 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://192.168.1.106:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:30:10 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=Hyll7X97SggfcGep" for 192.168.1.106 at 2017-09-25 15:30:48 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"Hyll7X97SggfcGep"}
+Redirected to http://192.168.1.106:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:30:51 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:31:24 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 188ms (Views: 187.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:31:26 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for 192.168.1.106 at 2017-09-25 15:31:27 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://192.168.1.106:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for 192.168.1.106 at 2017-09-25 15:31:27 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://192.168.1.106:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:31:27 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:54:26 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 183ms (Views: 181.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:54:30 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+Redirected to http://192.168.1.106:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for 192.168.1.106 at 2017-09-25 15:54:30 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:54:31 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+Redirected to http://192.168.1.106:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for 192.168.1.106 at 2017-09-25 15:54:31 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 192.168.1.106 at 2017-09-25 15:55:22 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.1.106 at 2017-09-25 15:55:22 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/home.self-0943fd05a04d8955f741795d02e667f848034bbf60864ca40991e4049bb6fb5e.js?body=1" for 192.168.1.106 at 2017-09-25 15:55:22 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 192.168.1.106 at 2017-09-25 15:55:22 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for 192.168.1.106 at 2017-09-25 15:55:22 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/auth/auth0/callback?code=Bqtak1yyq-cFgfkj" for 192.168.1.106 at 2017-09-25 15:55:27 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"Bqtak1yyq-cFgfkj"}
+Redirected to http://192.168.1.106:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:55:30 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/sso?connection=Username-Password-Authentication&target_url=/dashboard" for 192.168.1.106 at 2017-09-25 15:55:34 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#sso as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "target_url"=>"/dashboard"}
+Redirected to http://192.168.1.106:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:55:34 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:56:05 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 183ms (Views: 181.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/sso?connection=Username-Password-Authentication&target_url=/dashboard" for 192.168.1.106 at 2017-09-25 15:56:06 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#sso as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "target_url"=>"/dashboard"}
+Redirected to http://192.168.1.106:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:56:06 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:56:18 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 179ms (Views: 178.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/sso?connection=Username-Password-Authentication&target_url=/dashboard" for 192.168.1.106 at 2017-09-25 15:56:19 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Auth0Controller#sso as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "target_url"=>"/dashboard"}
+Redirected to http://192.168.1.106:4000/dashboard
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:56:19 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 192.168.1.106 at 2017-09-25 15:56:34 +0530
+Cannot render console from 192.168.1.106! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
