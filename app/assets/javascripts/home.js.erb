@@ -1,0 +1,28 @@
+var options = {
+   auth: {
+ 		redirectUrl: '<%= Rails.application.secrets.auth0_callback_url %>',
+ 		params: {
+ 			scope: 'openid name email picture'
+ 		}
+   },
+   additionalSignUpFields: [
+	  {
+	    type: "select",
+	    name: "Role",
+	    placeholder: "choose your role",
+	    options: [
+	      {value: "developer", label: "Developer"},
+	      {value: "manager", label: "Manager"},
+	    ],
+	  },
+	  {
+	    name: "full_name",
+	    placeholder: "Enter your full name"
+	  }
+  ]
+ };
+var lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', options);
+
+function signin() {
+ 	lock.show();
+}
