@@ -1,6 +1,5 @@
 class Auth0Controller < ApplicationController
   include ApplicationHelper
-  puts "======in auth0===="
 
   def callback
     # OmniAuth places the User Profile information (retrieved by omniauth-auth0) in request.env['omniauth.auth'].

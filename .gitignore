@@ -1,0 +1,7 @@
+!.keep
+/.bundle
+/db/*.sqlite3
+/log/*
+/public/system
+/tmp/*
+.rvmrc
