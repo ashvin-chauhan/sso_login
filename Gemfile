@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'omniauth', '~> 1.3.1'
 gem 'omniauth-auth0', '~> 1.4.2'
 gem 'dotenv', '~> 0.11.1'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
