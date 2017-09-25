@@ -30,7 +30,7 @@ module RubyOnRailsWebapp
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
-        resource '*', :headers => :any, :methods => [:put, :patch, :delete, :get, :post, :options]
+        resource '*', :headers => :any, :methods => [:put, :patch, :delete, :get, :post, :options, :head]
       end
     end
   end
