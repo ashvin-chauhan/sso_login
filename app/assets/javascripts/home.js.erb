@@ -1,6 +1,6 @@
 var options = {
    auth: {
- 		redirectUrl: 'https://auth0-login-app.herokuapp.com/auth/auth0/callback',
+ 		redirectUrl: '<%= Rails.application.secrets.auth0_callback_url %>',
  		params: {
  			scope: 'openid name email picture'
  		}
