@@ -6,7 +6,7 @@ class Auth0Controller < ApplicationController
     # In this tutorial, you will store that info in the session, under 'userinfo'.
     # If the id_token is needed, you can get it from session[:userinfo]['credentials']['id_token'].
     # Refer to https://github.com/auth0/omniauth-auth0#auth-hash for complete information on 'omniauth.auth' contents.
-    session[:userinfo] = request.env['omniauth.auth']
+    session[:userinfo1] = request.env['omniauth.auth']
 
     if session[:target_url].present? then
       redirect_to session[:target_url]
@@ -17,8 +17,8 @@ class Auth0Controller < ApplicationController
   end
 
   def logout
-    if session[:userinfo].present? then
-      session.delete(:userinfo)
+    if session[:userinfo1].present? then
+      session.delete(:userinfo1)
     end
     redirect_to sprintf("https://%s/v2/logout?federated&returnTo=%s",ENV["AUTH0_DOMAIN"],request.base_url)  
   end
@@ -35,7 +35,7 @@ class Auth0Controller < ApplicationController
       return
     end
 
-    if session[:userinfo].present? then
+    if session[:userinfo1].present? then
       # User is already logged in, just redirect
       redirect_to params['target_url']
     else 

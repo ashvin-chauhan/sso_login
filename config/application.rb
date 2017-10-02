@@ -27,11 +27,14 @@ module RubyOnRailsWebapp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    config.middleware.insert_before 0, Rack::Cors do
-      allow do
-        origins '*'
-        resource '*', :headers => :any, :methods => [:put, :patch, :delete, :get, :post, :options, :head]
+    config.middleware.insert_before 0, "Rack::Cors" do
+        allow do
+          # In development, we don't care about the origin.
+          origins '*'
+          # Reminder: On the following line, the 'methods' refer to the 'Access-
+          # Control-Request-Method', not the normal Request Method.
+          resource '*', :headers => :any, :methods => [:get, :post, :options, :delete, :put, :patch]
+        end
       end
-    end
   end
 end

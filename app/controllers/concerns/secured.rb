@@ -7,6 +7,7 @@ module Secured
   end
 
   def logged_in_using_omniauth?
-    redirect_to getAuthUrl() unless session[:userinfo].present?
+  	puts "====#{session[:userinfo1].inspect}======="
+    redirect_to getAuthUrl() unless session[:userinfo1].present?
   end
 end

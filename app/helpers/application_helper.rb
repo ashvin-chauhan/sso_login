@@ -4,7 +4,7 @@ module ApplicationHelper
   end
 
   def current_user
-  	user_data = JSON.parse(session[:userinfo].to_json)["extra"]["raw_info"]
+  	user_data = JSON.parse(session[:userinfo1].to_json)["extra"]["raw_info"]
   	return {
   		email: user_data["email"],
   		full_name: user_data["user_metadata"]["full_name"],
@@ -13,7 +13,7 @@ module ApplicationHelper
   end
 
   def is_logged_in?
-    if session[:userinfo].present?
+    if session[:userinfo1].present?
       true
     else
       false
