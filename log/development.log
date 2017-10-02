@@ -11236,3 +11236,103 @@ Started GET "/assets/home.self-badfa96896ab2e0ee7c267ec81e9bb7c73ee7a6bee55fa8b2
 Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-02 14:16:53 +0530
 Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-02 14:16:53 +0530
 Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-02 14:16:53 +0530
+Started GET "/" for ::1 at 2017-10-02 14:22:28 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=TNarp9V8SWQn2LEh" for ::1 at 2017-10-02 14:22:43 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"TNarp9V8SWQn2LEh"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-02 14:22:55 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-02 14:24:32 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-02 14:24:32 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-02 14:24:33 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-02 14:38:51 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-badfa96896ab2e0ee7c267ec81e9bb7c73ee7a6bee55fa8b26a950d37bff4bf4.js?body=1" for ::1 at 2017-10-02 14:38:51 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-02 14:38:51 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-02 14:38:51 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-02 14:38:51 +0530
+Started GET "/dashboard" for ::1 at 2017-10-02 14:38:54 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-02 14:38:54 +0530
+Started GET "/dashboard" for ::1 at 2017-10-02 14:38:55 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-02 14:38:55 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=k9gPaMvFnPLOhQxZ&state=ca8a851e6e1745e9fcfb974d587ae824c438965cc8347dc9" for ::1 at 2017-10-02 14:38:56 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"k9gPaMvFnPLOhQxZ", "state"=>"ca8a851e6e1745e9fcfb974d587ae824c438965cc8347dc9"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-02 14:38:58 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-02 14:39:00 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-02 14:39:01 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-02 14:39:01 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
