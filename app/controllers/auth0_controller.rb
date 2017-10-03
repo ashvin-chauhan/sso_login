@@ -12,7 +12,7 @@ class Auth0Controller < ApplicationController
       redirect_to session[:target_url]
       session.delete(:target_url)
     else
-      redirect_to '/dashboard'
+      redirect_to dashboard_path
     end
   end
 
@@ -20,18 +20,18 @@ class Auth0Controller < ApplicationController
     if session[:userinfo1].present? then
       session.delete(:userinfo1)
     end
-    redirect_to sprintf("https://%s/v2/logout?federated&returnTo=%s",ENV["AUTH0_DOMAIN"],request.base_url)  
+    redirect_to sprintf("https://%s/v2/logout?federated&returnTo=%s",ENV["AUTH0_DOMAIN"],root_url)  
   end
 
   def sso
     if request.params['target_url'].present? then
       # should actually constrain this to make sure it is a local redirect?  Or only expected redirects.
     else
-      redirect_to '/auth/failure?message=target_url is required for this endpoint'
+      redirect_to 'auth/failure?message=target_url is required for this endpoint'
       return
     end
     if not request.params['connection'].present? then
-      redirect_to '/auth/failure?message=connection is required for this endpoint'
+      redirect_to 'auth/failure?message=connection is required for this endpoint'
       return
     end
 
