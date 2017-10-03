@@ -11336,3 +11336,15 @@ Processing by HomeController#show as HTML
 Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
