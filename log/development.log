@@ -16834,3 +16834,77 @@ them to actual class references.  For example:
   "Rack::Cors" => Rack::Cors
 
  (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 14:55:04 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 178ms (Views: 176.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-97adddb3c65775d191d586d78a7b9aacba15c104b349670d1abd04ad724aefb9.js?body=1" for ::1 at 2017-10-05 14:55:05 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 14:57:06 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 14:59:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-8c781c9d03dbb8099584fc7b39121ef3d6b3263fbd7555ae810f0cd901b3e951.js?body=1" for ::1 at 2017-10-05 14:59:00 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 14:59:00 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 14:59:00 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 14:59:00 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)

@@ -26,8 +26,8 @@ function getOptions(redirectUrl) {
   return options;
 }
 
-var lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', getOptions('<%= Rails.application.secrets.auth0_callback_url %>'));
-var client_lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', getOptions('<%= Rails.application.secrets.auth0_client_callback_url %>'));
+var lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', getOptions('<%= ENV["AUTH0_CALLBACK_URL"] %>'));
+var client_lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', getOptions('<%= ENV["AUTH0_CLIENT_CALLBACK_URL"] %>'));
 
 function signin() {
   lock.show();
