@@ -10,7 +10,7 @@ class Auth0Controller < ApplicationController
   end
 
   def client_callback
-    handle_callback(ENV['CLIENT_SITE_URL'] + ENV['CLIENT_TARGET_URL'])
+    handle_callback(ENV['CLIENT_SITE_URL'] + "/dashboard")
   end
 
   def logout
