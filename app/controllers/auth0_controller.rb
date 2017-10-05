@@ -6,14 +6,11 @@ class Auth0Controller < ApplicationController
     # In this tutorial, you will store that info in the session, under 'userinfo'.
     # If the id_token is needed, you can get it from session[:userinfo]['credentials']['id_token'].
     # Refer to https://github.com/auth0/omniauth-auth0#auth-hash for complete information on 'omniauth.auth' contents.
-    session[:userinfo1] = request.env['omniauth.auth']
+    handle_callback(dashboard_path)
+  end
 
-    if session[:target_url].present? then
-      redirect_to session[:target_url]
-      session.delete(:target_url)
-    else
-      redirect_to dashboard_path
-    end
+  def client_callback
+    handle_callback(ENV['CLIENT_SITE_URL'] + ENV['CLIENT_TARGET_URL'])
   end
 
   def logout
@@ -49,5 +46,18 @@ class Auth0Controller < ApplicationController
   # passing the error message in the 'message' request param.
   def failure
     @error_msg = request.params['message']
+  end
+
+  private
+
+  def handle_callback(redirectUrl)
+    session[:userinfo1] = request.env['omniauth.auth']
+
+    if session[:target_url].present? then
+      redirect_to session[:target_url]
+      session.delete(:target_url)
+    else
+      redirect_to redirectUrl
+    end
   end
 end

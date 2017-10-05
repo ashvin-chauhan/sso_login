@@ -27,7 +27,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="<%= 'active' if params[:controller] == 'home' %>"><%= link_to "Home", root_path %></li>
+            <li class="<%= 'active' if params[:controller] == 'home' && params[:action] == 'show' %>"><%= link_to "Login", root_path %></li>
+            <li class="<%= 'active' if params[:controller] == 'home' && params[:action] == 'client_login' %>"><%= link_to "Client Login", client_login_path %></li>
             <li class="<%= 'active' if params[:controller] == 'dashboard' %>"><%= link_to 'My Dashboard', dashboard_path %></li>
           </ul>
         </div>

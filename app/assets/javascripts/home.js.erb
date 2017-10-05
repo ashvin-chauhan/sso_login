@@ -1,29 +1,38 @@
-var options = {
-   auth: {
- 		redirectUrl: '<%= Rails.application.secrets.auth0_callback_url %>',
- 		params: {
- 			scope: 'openid name email picture'
- 		}
-   },
-   additionalSignUpFields: [
-	  {
-	    type: "select",
-	    name: "Role",
-	    placeholder: "choose your role",
-	    options: [
-	      {value: "developer", label: "Developer"},
-	      {value: "manager", label: "Manager"},
-	      {value: "admin", label: "Admin"},
-	    ],
-	  },
-	  {
-	    name: "full_name",
-	    placeholder: "Enter your full name"
-	  }
-  ]
- };
-var lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', options);
+function getOptions(redirectUrl) {
+  var options = {
+     auth: {
+      redirectUrl: redirectUrl,
+      params: {
+        scope: 'openid name email picture'
+      }
+     },
+     additionalSignUpFields: [
+      {
+        type: "select",
+        name: "Role",
+        placeholder: "choose your role",
+        options: [
+          {value: "developer", label: "Developer"},
+          {value: "manager", label: "Manager"},
+          {value: "admin", label: "Admin"},
+        ],
+      },
+      {
+        name: "full_name",
+        placeholder: "Enter your full name"
+      }
+    ]
+   };
+  return options;
+}
+
+var lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', getOptions('<%= Rails.application.secrets.auth0_callback_url %>'));
+var client_lock = new Auth0Lock('<%= Rails.application.secrets.auth0_client_id %>', '<%= Rails.application.secrets.auth0_domain %>', getOptions('<%= Rails.application.secrets.auth0_client_callback_url %>'));
 
 function signin() {
- 	lock.show();
+  lock.show();
+}
+
+function client_signin() {
+  client_lock.show();
 }

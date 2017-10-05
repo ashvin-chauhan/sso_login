@@ -14082,3 +14082,2564 @@ Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
 
 
 Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 18:29:53 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-04 18:56:14 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-04 18:56:16 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 18:56:16 +0530
+Started GET "/dashboard" for ::1 at 2017-10-04 18:56:17 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 18:56:17 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=R4algd0MATAZ29-R&state=0f78b5e23b705d0f48408e262a1f91a80428903ce52ea9de" for ::1 at 2017-10-04 18:56:57 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"R4algd0MATAZ29-R", "state"=>"0f78b5e23b705d0f48408e262a1f91a80428903ce52ea9de"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-04 18:57:00 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-04 18:57:23 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-04 18:57:24 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-04 18:57:56 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 18:57:56 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=vrs_adr-wF0o4X2e&state=c8307946bba357cbf2040daab7fd4d1d7ac1661dca676af3" for ::1 at 2017-10-04 18:57:57 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"vrs_adr-wF0o4X2e", "state"=>"c8307946bba357cbf2040daab7fd4d1d7ac1661dca676af3"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-04 18:58:00 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-04 18:58:18 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-04 18:58:19 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-04 18:58:19 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-04 18:58:22 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 18:58:22 +0530
+Started GET "/dashboard" for ::1 at 2017-10-04 18:58:22 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 18:58:22 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-04 19:03:14 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 209ms (Views: 208.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-04 19:03:18 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 19:03:18 +0530
+Started GET "/dashboard" for ::1 at 2017-10-04 19:03:19 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-04 19:03:19 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 11:38:03 +0530
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+):
+  
+pg (0.21.0) lib/pg.rb:56:in `initialize'
+pg (0.21.0) lib/pg.rb:56:in `new'
+pg (0.21.0) lib/pg.rb:56:in `connect'
+activerecord (5.0.6) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.6) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.6) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.6) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.6) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.6) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.6) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.6) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.1ms)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 11:38:28 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 461ms (Views: 441.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 11:42:37 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:43:16 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:43:22 +0530
+  
+AbstractController::ActionNotFound (The action 'client_login' could not be found for DashboardController):
+  
+actionpack (5.0.6) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.6) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.6) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.6) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.6) lib/action_dispatch/routing/route_set.rb:727:in `call'
+omniauth (1.3.2) lib/omniauth/strategy.rb:186:in `call!'
+omniauth (1.3.2) lib/omniauth/strategy.rb:164:in `call'
+omniauth (1.3.2) lib/omniauth/builder.rb:63:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.6) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+rack-cors (1.0.1) lib/rack/cors.rb:93:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.1ms)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 11:43:49 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:43:51 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:43:52 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:43:53 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:43:53 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:43:54 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:43:55 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:43:55 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:43:55 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:43:56 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 11:49:16 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 202ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-95b52cbadceba06ab96801b1ddfa0311f4dbdebbd3bca656475d2e440ce66d24.js?body=1" for ::1 at 2017-10-05 11:49:16 +0530
+Started GET "/" for ::1 at 2017-10-05 11:49:17 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 11:50:47 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 180ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:51:48 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:51:59 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:52:32 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:52:32 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:52:33 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:52:33 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=22Y6SaqdX5hQDdRh&state=53a551a9318dfe1648671191f1b7de145d85ed2e76dd869e" for ::1 at 2017-10-05 11:52:33 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"22Y6SaqdX5hQDdRh", "state"=>"53a551a9318dfe1648671191f1b7de145d85ed2e76dd869e"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:52:37 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-3b13628dc78853894ea4bb6fb369c265207659a9213b5d601de716db3a77e319.js?body=1" for ::1 at 2017-10-05 11:52:37 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:52:37 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:52:37 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:52:37 +0530
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:52:43 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:52:43 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:52:43 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-3b13628dc78853894ea4bb6fb369c265207659a9213b5d601de716db3a77e319.js?body=1" for ::1 at 2017-10-05 11:52:43 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:52:43 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:52:43 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:52:43 +0530
+Started GET "/" for ::1 at 2017-10-05 11:53:08 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-3b13628dc78853894ea4bb6fb369c265207659a9213b5d601de716db3a77e319.js?body=1" for ::1 at 2017-10-05 11:53:08 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:53:08 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:53:08 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:53:08 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:53:31 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:53:31 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:53:31 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:53:31 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=QD18Egkh_O96T8B_&state=697d602d1382933d5528d10b41653fc611821ba4152226f2" for ::1 at 2017-10-05 11:53:32 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"QD18Egkh_O96T8B_", "state"=>"697d602d1382933d5528d10b41653fc611821ba4152226f2"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:53:36 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-4be76249e04e746fc08b15d101970aba63766e63ed59adffa59e9308630e146b.js?body=1" for ::1 at 2017-10-05 11:53:36 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:53:36 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:53:36 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:53:36 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:54:27 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e37786af291aeda5960f146d1aaecc049c2b63496279e5c6800bb3acea0d0b4f.js?body=1" for ::1 at 2017-10-05 11:54:27 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:54:27 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:54:27 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:54:27 +0530
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:54:35 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:54:36 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:54:36 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 42ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e37786af291aeda5960f146d1aaecc049c2b63496279e5c6800bb3acea0d0b4f.js?body=1" for ::1 at 2017-10-05 11:54:36 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:54:36 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:54:36 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:54:36 +0530
+Started GET "/" for ::1 at 2017-10-05 11:54:59 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e37786af291aeda5960f146d1aaecc049c2b63496279e5c6800bb3acea0d0b4f.js?body=1" for ::1 at 2017-10-05 11:54:59 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:54:59 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:54:59 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:54:59 +0530
+Started GET "/" for ::1 at 2017-10-05 11:55:49 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-37bc404d1a9ac7ac4bab89ed6aa450145824cab2208ddd435960062de4d3d974.js?body=1" for ::1 at 2017-10-05 11:55:49 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 11:55:49 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 11:55:49 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 11:55:49 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:55:56 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:55:56 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:55:56 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:55:56 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=oOhFZ63T-NZCgxSq&state=50ae39302cd39316816c84568b0d1cc191797195c54f6334" for ::1 at 2017-10-05 11:55:57 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"oOhFZ63T-NZCgxSq", "state"=>"50ae39302cd39316816c84568b0d1cc191797195c54f6334"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:56:05 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:56:07 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:56:07 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:56:08 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 11:56:09 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:56:26 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:56:46 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:56:46 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 11:56:46 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 11:56:46 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=B_w4zpZt-SEEaNlW&state=65b9f0e1c0b6f55152e3575f202addb5c3124070b947e9e6" for ::1 at 2017-10-05 11:56:47 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"B_w4zpZt-SEEaNlW", "state"=>"65b9f0e1c0b6f55152e3575f202addb5c3124070b947e9e6"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:56:50 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:56:51 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:56:51 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:56:52 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=ZS_3aD4xb1HnmKXv" for ::1 at 2017-10-05 11:57:02 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"ZS_3aD4xb1HnmKXv"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 11:57:04 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:58:29 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 11:58:30 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 11:58:30 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 252ms (Views: 249.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-d0eb067ad58b99475fdae616332278a3c0ba5c3988f0ed4dd215204eea7a4178.js?body=1" for ::1 at 2017-10-05 11:58:31 +0530
+Started GET "/" for ::1 at 2017-10-05 11:59:26 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:00:29 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:00:30 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:00:30 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:00:31 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:00:31 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=1tc4dkyDc7HPlhNW&state=d2acf43dae4428e28693677476db5bf7c8dc050b69d8b296" for ::1 at 2017-10-05 12:00:31 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"1tc4dkyDc7HPlhNW", "state"=>"d2acf43dae4428e28693677476db5bf7c8dc050b69d8b296"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:00:34 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:00:35 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:00:35 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:00:35 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:02:55 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 179ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:02:57 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:02:57 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:03:01 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:03:01 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=2M30xVGwKTFwFf5y&state=a412790eb244253ff310ab360c5e4282b784490fc31a572a" for ::1 at 2017-10-05 12:03:02 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"2M30xVGwKTFwFf5y", "state"=>"a412790eb244253ff310ab360c5e4282b784490fc31a572a"}
+Redirected to http://localhost:3000
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:03:13 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:03:13 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:03:13 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:03:13 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=So1bXoG2D4KyBULE&state=db61950442279fa32299e6de32781e5a3e54ae72b81f1943" for ::1 at 2017-10-05 12:03:14 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"So1bXoG2D4KyBULE", "state"=>"db61950442279fa32299e6de32781e5a3e54ae72b81f1943"}
+Redirected to http://localhost:3000
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:03:59 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:04:10 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-d0eb067ad58b99475fdae616332278a3c0ba5c3988f0ed4dd215204eea7a4178.js?body=1" for ::1 at 2017-10-05 12:04:10 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:04:10 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:04:10 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:04:10 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:04:27 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:04:27 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:04:28 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:04:28 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=Mc5EY5ROPuTfoSei&state=3bfe9bb6f3133a041bf002d4b20c7ae596e6fbe6860c73c0" for ::1 at 2017-10-05 12:04:29 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"Mc5EY5ROPuTfoSei", "state"=>"3bfe9bb6f3133a041bf002d4b20c7ae596e6fbe6860c73c0"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:04:31 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:04:33 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:04:33 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:04:33 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:05:29 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:05:29 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:05:29 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:05:29 +0530
+Started GET "/assets/home.self-badfa96896ab2e0ee7c267ec81e9bb7c73ee7a6bee55fa8b26a950d37bff4bf4.js?body=1" for ::1 at 2017-10-05 12:05:29 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:05:30 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:05:30 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:05:30 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:05:30 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=aGBXGy66C_h0x_Ho&state=c4637f46892c3d1a0fd8498caf370c57ada2b18bb6072fae" for ::1 at 2017-10-05 12:05:31 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"aGBXGy66C_h0x_Ho", "state"=>"c4637f46892c3d1a0fd8498caf370c57ada2b18bb6072fae"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:05:33 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:05:35 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:05:35 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:05:36 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:05:45 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=LJqLjDjFvwvQSw-i" for ::1 at 2017-10-05 12:05:56 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"LJqLjDjFvwvQSw-i"}
+Redirected to http://localhost:3000
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:07:17 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:07:19 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:07:19 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:07:21 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:07:21 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=hHLQltk734EFt_ne&state=cc509516ed4f0f90ee257386380da928d9dee6afb87444db" for ::1 at 2017-10-05 12:07:22 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"hHLQltk734EFt_ne", "state"=>"cc509516ed4f0f90ee257386380da928d9dee6afb87444db"}
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:07:37 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=4EVrDKYYyOU1VdE-" for ::1 at 2017-10-05 12:07:48 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"4EVrDKYYyOU1VdE-"}
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:08:03 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 12:08:06 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:08:07 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:08:07 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:08:07 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:08:07 +0530
+Started GET "/client_login" for ::1 at 2017-10-05 12:08:57 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-de9677bf11c76c28de3410b2e52e7c831756e387909de3940a8c7767f3c287aa.js?body=1" for ::1 at 2017-10-05 12:08:57 +0530
+Started GET "/client_login" for ::1 at 2017-10-05 12:10:05 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 12:10:15 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:10:31 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:10:31 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:10:31 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:10:31 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=jZA6yjxdSeJu72CD&state=aee26d4b4f1e313b18bd56c18cde4d1c14a63452571554b4" for ::1 at 2017-10-05 12:10:32 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"jZA6yjxdSeJu72CD", "state"=>"aee26d4b4f1e313b18bd56c18cde4d1c14a63452571554b4"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:10:34 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:10:36 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:10:36 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:10:36 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:11:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:11:01 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:11:01 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:11:01 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:11:01 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=2MH79DP7Y2UbJFUT&state=7f06f9a69eaf1784b50027a6510460f66785d89f3ddd311a" for ::1 at 2017-10-05 12:11:02 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"2MH79DP7Y2UbJFUT", "state"=>"7f06f9a69eaf1784b50027a6510460f66785d89f3ddd311a"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:11:04 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:11:06 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:11:06 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:11:06 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:11:07 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:12:31 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 203ms (Views: 201.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:12:35 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:12:35 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:12:35 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:12:35 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=SimyGtbrI_8BsBt2&state=3f605c267a77760817d5591ef120036e5cbdb3e3dc7038b5" for ::1 at 2017-10-05 12:12:36 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"SimyGtbrI_8BsBt2", "state"=>"3f605c267a77760817d5591ef120036e5cbdb3e3dc7038b5"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:12:38 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:12:40 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:12:40 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:12:40 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:16:49 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session' for #<#<Class:0x00000003522ee0>:0x007feba91b5b60>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3967666703010447489_25995700'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+Started GET "/" for ::1 at 2017-10-05 12:17:27 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session' for #<#<Class:0x007feb946718f8>:0x007feb94472930>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3967666703010447489_70324892112840'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+Started GET "/" for ::1 at 2017-10-05 12:19:27 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-657bdd44bdbe278340d879c43d677ab34c12ac6abcb02922b63d854e151383f4.js?body=1" for ::1 at 2017-10-05 12:19:27 +0530
+Started GET "/" for ::1 at 2017-10-05 12:19:46 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-777f9d8953eb3c347e8ce6f6a63daa347c746385d7efaea8e3880658dcfbebda.js?body=1" for ::1 at 2017-10-05 12:19:46 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:19:46 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:19:46 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:19:46 +0530
+Started GET "/" for ::1 at 2017-10-05 12:19:54 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-15d7592a71abf042af4838e6d645fbdb552369d0458b351365cd0397cd55244e.js?body=1" for ::1 at 2017-10-05 12:19:54 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:19:54 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:19:54 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:19:54 +0530
+Started GET "/" for ::1 at 2017-10-05 12:20:01 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-82dd5b5b1c49df2b7ac7de18fc45a9dfaf51c87a08173da7aa94ea166fb4f928.js?body=1" for ::1 at 2017-10-05 12:20:01 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:20:01 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:20:01 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:20:01 +0530
+Started GET "/" for ::1 at 2017-10-05 12:20:27 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session' for #<#<Class:0x007feb94d23200>:0x007feb94e25748>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3967666703010447489_70324895328720'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.9ms)
+Started GET "/" for ::1 at 2017-10-05 12:20:37 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session' for #<#<Class:0x007feb94401668>:0x007feb94991f60>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3967666703010447489_70325073271740'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+Started GET "/" for ::1 at 2017-10-05 12:20:55 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session' for #<#<Class:0x000000045b2288>:0x00000002dca378>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3967666703010447489_37256960'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+Started GET "/" for ::1 at 2017-10-05 12:21:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `session' for #<#<Class:0x007feba91e3d58>:0x00000004ab82a0>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3967666703010447489_70325065982920'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+Started GET "/" for ::1 at 2017-10-05 12:24:01 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:24:01 +0530
+Started GET "/assets/home.self-bdeb12507c18614946b54ceec3791a97a621befa7294e369af0d09481ca66a2b.js?body=1" for ::1 at 2017-10-05 12:24:01 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:24:01 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:24:01 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:25:15 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of nil into String):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `+'
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2388741224387033679_38345560'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.4ms)
+Started GET "/" for ::1 at 2017-10-05 12:25:44 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of nil into String):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:55:in `+'
+app/assets/javascripts/home.js.erb:55:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2388741224387033679_69913530019320'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.2ms)
+Started GET "/" for ::1 at 2017-10-05 12:25:58 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-0dcc19485a7fb5251f48eec75836e0c33b23382bdeb3fd4a961075e221d51a40.js?body=1" for ::1 at 2017-10-05 12:25:58 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:25:58 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:25:58 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:25:58 +0530
+Started GET "/" for ::1 at 2017-10-05 12:26:35 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-1ce0294535c96fca3f38a8d857f05cda553398c6a203a2b93c7b159754335287.js?body=1" for ::1 at 2017-10-05 12:26:35 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:26:35 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:26:35 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:26:35 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:26:41 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:26:41 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:26:41 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:26:41 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=NoBk2fEdFAf_KP_U&state=465b3a35022cc7ca26d0cfda331567dd66d8f0b63b5b04fd" for ::1 at 2017-10-05 12:26:42 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"NoBk2fEdFAf_KP_U", "state"=>"465b3a35022cc7ca26d0cfda331567dd66d8f0b63b5b04fd"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:26:44 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:26:46 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:26:46 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:26:46 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:28:05 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 178ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:28:05 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:28:47 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:28:47 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:28:48 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:28:48 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=I0G9rPZRZu0E-FsB&state=ed93f5f3aaba697fb06b32fa511c0d1f96bd1b2931bfd9ea" for ::1 at 2017-10-05 12:28:49 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"I0G9rPZRZu0E-FsB", "state"=>"ed93f5f3aaba697fb06b32fa511c0d1f96bd1b2931bfd9ea"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:28:51 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:28:52 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:28:53 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:28:53 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:29:17 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:31:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 184ms (Views: 182.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:31:22 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:32:13 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 190ms (Views: 189.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:32:13 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:32:13 +0530
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:32:13 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:32:13 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:32:24 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:32:24 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:32:24 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:32:24 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=lIXrvK-XtvCbYofv&state=194390426b6921e8a56e1715582dbc668dac0932da70a264" for ::1 at 2017-10-05 12:32:25 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"lIXrvK-XtvCbYofv", "state"=>"194390426b6921e8a56e1715582dbc668dac0932da70a264"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:32:27 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:32:29 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:32:29 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:32:29 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:32:30 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:33:59 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/" for ::1 at 2017-10-05 12:33:59 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:33:59 +0530
+Started GET "/" for ::1 at 2017-10-05 12:34:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/" for ::1 at 2017-10-05 12:34:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/" for ::1 at 2017-10-05 12:34:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/" for ::1 at 2017-10-05 12:34:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/" for ::1 at 2017-10-05 12:34:00 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+Started GET "/assets/home.self-964dc0ec2e4aa441937540132f17bfa116107fce0f10e21c0a894a1cadcd04aa.js?body=1" for ::1 at 2017-10-05 12:34:00 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 12:34:49 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 181ms (Views: 179.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:34:50 +0530
+Started GET "/assets/home.self-2a5e7920d43c94b34c7f16ba96767322d9bb8e4c5a3b72c7ae25b1ec903b59b4.js?body=1" for ::1 at 2017-10-05 12:34:50 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:34:50 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:34:50 +0530
+Started GET "/auth/auth0/callback?code=TYzQbNZ18vN9HYfU" for ::1 at 2017-10-05 12:35:03 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"TYzQbNZ18vN9HYfU"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:35:06 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:35:16 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:35:18 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:35:19 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-3f33f58298928f46342fc68c05e71fcb8a4c9678715bdc622a90b5d1579ccd2b.js?body=1" for ::1 at 2017-10-05 12:35:19 +0530
+Started GET "/" for ::1 at 2017-10-05 12:35:21 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=goF4RySH5r2DOjzI" for ::1 at 2017-10-05 12:35:32 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"goF4RySH5r2DOjzI"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:35:34 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:35:46 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:35:46 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:35:47 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:35:48 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=zbmXg_pM1_woOTe8" for ::1 at 2017-10-05 12:36:00 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"zbmXg_pM1_woOTe8"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/auth0_controller.rb:10:in `exit'
+app/controllers/auth0_controller.rb:10:in `callback'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.7ms)
+Started PUT "/__web_console/repl_sessions/6cb72e43e6ac8b847c06e8e379ac144b" for ::1 at 2017-10-05 12:36:10 +0530
+Started PUT "/__web_console/repl_sessions/6cb72e43e6ac8b847c06e8e379ac144b" for ::1 at 2017-10-05 12:36:10 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/dashboard" for ::1 at 2017-10-05 12:43:54 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:43:54 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:43:55 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 12:43:55 +0530
+Started GET "/auth/auth0/callback?connection=Username-Password-Authentication&code=O8jcb7ZAapG-EBeG&state=1baeb31b954826b340dfe7fa2a181c6413877aca93e60548" for ::1 at 2017-10-05 12:43:56 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"connection"=>"Username-Password-Authentication", "code"=>"O8jcb7ZAapG-EBeG", "state"=>"1baeb31b954826b340dfe7fa2a181c6413877aca93e60548"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:43:58 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 210ms (Views: 208.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-1620edb8a8dcd0af1a33c1425c3271c5621f361e3cfe0d6f7ae90c5ded60db23.js?body=1" for ::1 at 2017-10-05 12:43:58 +0530
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:44:00 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:44:00 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:44:01 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:44:07 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:44:07 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:44:07 +0530
+Started GET "/assets/home.self-1620edb8a8dcd0af1a33c1425c3271c5621f361e3cfe0d6f7ae90c5ded60db23.js?body=1" for ::1 at 2017-10-05 12:44:07 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:44:07 +0530
+Started GET "/" for ::1 at 2017-10-05 12:47:20 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-22f56c0ab92488b58b0937467f4c6a232328d30ba048721678c784c711d9d242.js?body=1" for ::1 at 2017-10-05 12:47:20 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:47:20 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:47:20 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:47:20 +0530
+Started GET "/" for ::1 at 2017-10-05 12:48:02 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `include_gon' for #<#<Class:0x007fbb347bdb48>:0x007fbb3488e8b0>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= csrf_meta_tags %>
+    15: </head>
+    16: <body>
+  
+app/assets/javascripts/home.js.erb:1:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___4208880905420864987_70220950946420'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.4ms)
+Started GET "/" for ::1 at 2017-10-05 12:54:02 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `include_gon' for #<#<Class:0x000000051cf7a0>:0x00000004fce898>):
+    10:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+    11:   <%= stylesheet_link_tag    '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
+    12:   <%= javascript_include_tag '//cdn.auth0.com/js/lock/10.0.0/lock.min.js' %>
+    13:   <%= javascript_include_tag 'application' %>
+    14:   <%= Gon::Base.render_data %>
+    15:   <%= csrf_meta_tags %>
+    16: </head>
+  
+app/assets/javascripts/home.js.erb:1:in `_evaluate_template'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___4208880905420864987_43753040'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.2ms)
+Started GET "/" for ::1 at 2017-10-05 12:54:07 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:54:07 +0530
+Started GET "/assets/home.self-22f56c0ab92488b58b0937467f4c6a232328d30ba048721678c784c711d9d242.js?body=1" for ::1 at 2017-10-05 12:54:07 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:54:07 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:54:07 +0530
+Started GET "/auth/auth0/callback?code=uchsVRjZmgWg0SKH" for ::1 at 2017-10-05 12:54:29 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"uchsVRjZmgWg0SKH"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 12:54:31 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-22f56c0ab92488b58b0937467f4c6a232328d30ba048721678c784c711d9d242.js?body=1" for ::1 at 2017-10-05 12:54:31 +0530
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:54:31 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:54:31 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:54:31 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 12:54:46 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:54:46 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:54:46 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:54:46 +0530
+Started GET "/assets/home.self-22f56c0ab92488b58b0937467f4c6a232328d30ba048721678c784c711d9d242.js?body=1" for ::1 at 2017-10-05 12:54:46 +0530
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:54:47 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 12:54:48 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 12:54:48 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-10-05 12:54:48 +0530
+Started GET "/assets/application.self-1d8e221ce33ae6895c0dc108af782be06d67eee7ddcbbe39856d455f5c5c4ce1.js?body=1" for ::1 at 2017-10-05 12:54:48 +0530
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for ::1 at 2017-10-05 12:54:48 +0530
+Started GET "/assets/home.self-22f56c0ab92488b58b0937467f4c6a232328d30ba048721678c784c711d9d242.js?body=1" for ::1 at 2017-10-05 12:54:48 +0530
+Started GET "/auth/auth0/callback?code=DsxnsZrZlUz1wAMv" for ::1 at 2017-10-05 12:55:01 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"DsxnsZrZlUz1wAMv"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/auth0_controller.rb:10:in `exit'
+app/controllers/auth0_controller.rb:10:in `callback'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:11 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:11 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:19 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:19 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:32 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:33 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:34 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:55:34 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:25 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:25 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:25 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:27 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:28 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:29 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:30 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:30 +0530
+Started PUT "/__web_console/repl_sessions/3aed74607d33ecd6dc36bfe92e2e3292" for ::1 at 2017-10-05 12:57:31 +0530
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/" for ::1 at 2017-10-05 13:41:25 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 974ms (Views: 969.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-41a3115fc507b711c101e137f0fb4b3ab35004f6d16df5a86ba8214933fdb239.js?body=1" for ::1 at 2017-10-05 13:41:28 +0530
+Started GET "/auth/auth0/callback?code=wf8GSHjCWXlCSKfl" for ::1 at 2017-10-05 13:41:33 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"wf8GSHjCWXlCSKfl"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/auth0_controller.rb:10:in `+'
+app/controllers/auth0_controller.rb:10:in `callback'
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/tps/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+Started GET "/" for ::1 at 2017-10-05 13:41:50 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=WfOe_Pxi9_-O04PO" for ::1 at 2017-10-05 13:41:54 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"WfOe_Pxi9_-O04PO"}
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 13:47:02 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-0e301f2838982ca1344ff49b7da09a532500971b2a3a655472aba61c0d4e403d.js?body=1" for ::1 at 2017-10-05 13:47:02 +0530
+Started GET "/" for ::1 at 2017-10-05 13:47:04 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+DEPRECATION WARNING: Passing strings or symbols to the middleware builder is deprecated, please change
+them to actual class references.  For example:
+
+  "Rack::Cors" => Rack::Cors
+
+ (called from <top (required)> at /home/tps/sites/jekyll-login-app/config/environment.rb:5)
+Started GET "/assets/home.self-0e301f2838982ca1344ff49b7da09a532500971b2a3a655472aba61c0d4e403d.js?body=1" for ::1 at 2017-10-05 13:48:21 +0530
+Started GET "/" for ::1 at 2017-10-05 13:48:26 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-2941d4b2b74cd7e7ee566aefbe643c9a3c1963eb176d62f6d1bd52a9111ad1b9.js?body=1" for ::1 at 2017-10-05 13:48:26 +0530
+Started GET "/auth/auth0/callback?code=RP0FKvZG_izyKIO0" for ::1 at 2017-10-05 13:48:39 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"RP0FKvZG_izyKIO0"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 13:48:41 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 13:48:43 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 13:48:44 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 13:48:44 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 13:48:45 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 13:49:56 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 13:49:56 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 13:49:57 +0530
+Started GET "/dashboard" for ::1 at 2017-10-05 13:49:57 +0530
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:4000/auth/auth0?connection=Username-Password-Authentication
+Filter chain halted as :logged_in_using_omniauth? rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0?connection=Username-Password-Authentication" for ::1 at 2017-10-05 13:49:57 +0530
+Started GET "/client_login" for ::1 at 2017-10-05 13:50:00 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 13:50:30 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/client_callback?code=p-di3aaXcP-QwBNF" for ::1 at 2017-10-05 13:50:42 +0530
+Processing by Auth0Controller#client_callback as HTML
+  Parameters: {"code"=>"p-di3aaXcP-QwBNF"}
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 13:50:52 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=QCB0Fp5TDpJoxNxK" for ::1 at 2017-10-05 13:51:02 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"QCB0Fp5TDpJoxNxK"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 13:51:04 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 13:51:06 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/logout" for ::1 at 2017-10-05 13:51:06 +0530
+Processing by Auth0Controller#logout as HTML
+Redirected to https://techplus.auth0.com/v2/logout?federated&returnTo=http://localhost:4000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 13:51:06 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client_login" for ::1 at 2017-10-05 13:51:08 +0530
+Processing by HomeController#client_login as HTML
+  Rendering home/client_login.html.erb within layouts/application
+  Rendered home/client_login.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/client_callback?code=kIuAAPAQnSExFbQc" for ::1 at 2017-10-05 13:51:18 +0530
+Processing by Auth0Controller#client_callback as HTML
+  Parameters: {"code"=>"kIuAAPAQnSExFbQc"}
+Redirected to http://localhost:3000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 13:51:26 +0530
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/auth0/callback?code=u2TtnknQbG445W7W" for ::1 at 2017-10-05 13:51:42 +0530
+Processing by Auth0Controller#callback as HTML
+  Parameters: {"code"=>"u2TtnknQbG445W7W"}
+Redirected to http://localhost:4000/dashboard
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-05 13:51:44 +0530
+Processing by DashboardController#show as HTML
+  Rendering dashboard/show.html.erb within layouts/application
+  Rendered dashboard/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
