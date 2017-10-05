@@ -26,8 +26,8 @@ function getOptions(redirectUrl) {
   return options;
 }
 
-var lock = new Auth0Lock('rhVammJZLwxaA7FlEwFlxCl3XxtmFuqK', 'techplus.auth0.com', getOptions('http://localhost:4000/auth/auth0/callback'));
-var client_lock = new Auth0Lock('rhVammJZLwxaA7FlEwFlxCl3XxtmFuqK', 'techplus.auth0.com', getOptions('http://localhost:4000/auth/auth0/client_callback'));
+var lock = new Auth0Lock('rhVammJZLwxaA7FlEwFlxCl3XxtmFuqK', 'techplus.auth0.com', getOptions('http://104.251.216.241/ror/sso_login/auth/auth0/callback'));
+var client_lock = new Auth0Lock('rhVammJZLwxaA7FlEwFlxCl3XxtmFuqK', 'techplus.auth0.com', getOptions('http://104.251.216.241/ror/sso_login/auth/auth0/client_callback'));
 
 function signin() {
   lock.show();
