@@ -14,7 +14,6 @@ class UsersController < ApplicationController
 		request = Net::HTTP::Post.new(url)
 		request["content-type"] = 'application/json'
 		request.body = "{\"client_id\": \"4SgNl8rEj5tLnSxyGyJwTQqiuxsoKcSU\",\"email\": \"#{params['user']['email']}\",\"password\": \"#{params['user']['password']}\",\"user_metadata\": {\"role\": \"#{params['user']['role']}\"}}"
-		exit
 		response = http.request(request)
 		puts response.read_body
   end

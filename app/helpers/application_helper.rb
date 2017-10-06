@@ -19,4 +19,20 @@ module ApplicationHelper
       false
     end
   end
+
+  def get_user_target_url
+    if current_user[:role] == 'super_admin'
+      return '/users/super_admin'
+    elsif current_user[:role] == 'admin'
+      return '/users/admin'
+    elsif current_user[:role] == 'manager'
+      return '/users/manager'
+    elsif current_user[:role] == 'developer'
+      return '/users/developer'
+    end
+  end
+
+  def get_user_target_url_with_relative_url
+    return ENV['RELATIVE_URL'] + get_user_target_url
+  end
 end
